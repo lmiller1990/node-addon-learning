@@ -20,7 +20,7 @@ const greet = new Greet(name);
 greet.greet();
 ```
 
-I looked at [some examples](https://github.com/nodejs/node-addon-examples/tree/3eaf06f5f285fe7b6892108e8ec5e5eed9da7791) whihc were pretty useful, but there is a few things I couldn't figure out the correct syntax for in C++ using Node Addon API, namely:
+I looked at [some examples](https://github.com/nodejs/node-addon-examples/tree/3eaf06f5f285fe7b6892108e8ec5e5eed9da7791) which were pretty useful, but there is a few things I couldn't figure out the correct syntax for in C++ using Node Addon API, namely:
 
 1. can I `require` or get a handle on a JS module from userland? 
 2. how about accessing Node.js APIs in C++? Can I access `path`, `vm`, `fs` etc?
